@@ -1,6 +1,5 @@
 
 window.onload = function setTemplate() {
-    localStorage.clear();
     document.getElementById('allComments').innerHTML = localStorage.getItem('template');
 };
 
